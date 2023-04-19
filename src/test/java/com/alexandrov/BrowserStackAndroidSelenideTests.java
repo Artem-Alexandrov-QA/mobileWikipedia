@@ -16,6 +16,7 @@ import static io.qameta.allure.Allure.step;
 
 
 @Tag("selenide_android")
+@DisplayName("Проверка мобильного приложения Wikipedia")
 public class BrowserStackAndroidSelenideTests extends TestBase {
 
     @Test
