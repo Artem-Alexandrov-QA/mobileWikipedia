@@ -17,6 +17,21 @@
 <img width="6%" title="Browserstack" src="src/test/resources/img/logo/Browserstack.png">
 </p>
 
+## :running_woman: Варианты запуска тестов из терминала
+
+### Для удаленного запуска с Browserstack:
+```
+./gradlew clean test -DdeviceHost=browserstack
+```
+### Для запуска на эмуляторе Android Studio:
+```
+./gradlew clean test -DdeviceHost=local
+```
+### Для запуска на локальном устройстве Android:
+```
+./gradlew clean test -DdeviceHost=real
+```
+
 ## <img width="4%" style="vertical-align:middle" title="Jenkins" src="src/test/resources/img/logo/Jenkins.svg"> Сборка в Jenkins
 ### <a target="_blank" href="https://jenkins.autotests.cloud/job/mobile_browserstack/">*Jenkins job*</a>
 
